@@ -37,6 +37,7 @@
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    align-items: center;
   }
   [class*='col-'] {
     padding: 0 1rem;
