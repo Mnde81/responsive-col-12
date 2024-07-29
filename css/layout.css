@@ -26,11 +26,37 @@
     --m11: calc(100% / 12 * 11);
   }
 
+  .header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;    
+    gap: 20px;
+  }
+
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;    
+  }
+
+  nav > a {
+    text-decoration: none;
+    color: black;
+  }
+
   .blue {
     background-color: blue;
     color: white;
     padding-top: 30px;
     padding-bottom: 30px;    
+  }
+
+  .black {
+    background-color: black;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
   
   .container {
