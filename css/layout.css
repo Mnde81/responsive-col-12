@@ -25,6 +25,13 @@
     --m10: calc(100% / 12 * 10);
     --m11: calc(100% / 12 * 11);
   }
+
+  .blue {
+    background-color: blue;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;    
+  }
   
   .container {
     display: flex;
